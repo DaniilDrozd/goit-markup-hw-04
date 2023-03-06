@@ -128,7 +128,18 @@ ul {
 .hero {
   padding-top: 188px;
   padding-bottom: 188px;
-  background-color: var(--main-title-color4);
+  flex-grow: 1;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-size: cover;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/about-img-17.jpg.jpg);
+  /* background-color: var(--main-title-color4); */
 }
 .hero-efectiv-sol {
   margin: 0 auto;
@@ -225,6 +236,13 @@ ul {
 /* section Our team */
 .our-team {
 }
+.our-team-social-list {
+}
+.team-social-item {
+}
+.team-social-link {
+}
+
 .our-team-sizes {
   padding-top: 32px;
   padding-bottom: 32px;
