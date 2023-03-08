@@ -707,5 +707,44 @@ ul {
   letter-spacing: 0.02em;
   color: var(--main-title-color);
 }
+.portfolio-social-container {
+  display: flex;
+}
+.portfolio-last-social {
+  padding-left: 120px;
+  margin-left: 120px 0;
+}
+.portfolio-last-social-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--main-title-color);
+  margin-bottom: 16px;
+}
+
+.portfolio-last-list {
+  display: flex;
+  gap: 16px;
+}
+.portfolio-last-list-item {
+  display: flex;
+}
+.portfolio-last-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: var(--main-title-color10);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
+.portfolio-last-list-icon {
+}
+.portfolio-last-list-link:hover,
+.portfolio-last-list-link:focus {
+  color: var(--main-title-color);
+  background-color: var(--main-title-color7);
+}
 
 /* /Logo and Text */
