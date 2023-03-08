@@ -437,6 +437,7 @@ ul {
   color: var(--main-title-color);
 }
 .last-social {
+  padding-left: 120px;
   margin-left: 120px 0;
 }
 .last-social-text {
@@ -447,6 +448,11 @@ ul {
   margin-bottom: 16px;
 }
 .last-list {
+  display: flex;
+  gap: 16px;
+}
+.social-container {
+  display: flex;
 }
 .last-list-item {
   display: flex;
@@ -460,6 +466,14 @@ ul {
   height: 40px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
+}
+.last-list-link:hover {
+  background-color: var(--main-title-color7);
+  color: var(--main-title-color);
+}
+.last-list-link:focus {
+  color: var(--main-title-color);
+  background-color: var(--main-title-color7);
 }
 .last-list-icon {
 }
@@ -585,24 +599,8 @@ ul {
   outline: none;
   white-space: nowrap;
 }
+
 .portfolio-menu-list {
-  cursor: pointer;
-  margin-left: auto;
-  margin-right: auto;
-  border: transparent;
-  border-radius: 4px;
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  background-color: var(--main-title-color3);
-  color: var(--main-title-color);
-}
-.portfolio-menu-list2 {
   padding-left: 24px;
   padding-right: 24px;
   padding-top: 12px;
@@ -618,6 +616,14 @@ ul {
   color: var(--main-title-color3);
   cursor: pointer;
   letter-spacing: 0.04em;
+}
+.portfolio-menu-list:hover,
+.portfolio-menu-list:focus {
+  background-color: var(--main-title-color5);
+  color: var(--main-title-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border: 1px solidv var(--main-title-color5);
 }
 
 .Project-list-2 {
@@ -659,6 +665,15 @@ ul {
   line-height: 1.5;
   color: var(--main-title-color2);
 }
+
+.portfolio-link:hover,
+.portfolio-link:focus {
+  display: block;
+  border: 1px solid var(--main-title-color10);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 /* / Portfolio */
 /* Logo and Text */
 
