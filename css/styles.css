@@ -24,7 +24,8 @@ body {
   --main-title-color10: #f4f4fd;
   --main-title-color11: #e7e9fc;
 }
-img {
+img,
+svg {
   max-width: 100%;
   display: block;
   height: auto;
@@ -201,8 +202,7 @@ ul {
   width: 264px;
   height: 112px;
 }
-.about-item-icon {
-}
+
 .about-hidden {
 }
 .goal-list {
